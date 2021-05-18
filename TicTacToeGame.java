@@ -2,10 +2,12 @@ package com.TicTacToe.java;
 class CreateBoard {
 	//public char board[] = new char[10];
 	public char board[] = new char[10];
-	void createBoard() {
+	public  char[] createBoard() {
 	for (int i=1; i<10; i++) {
 		board[i] = ' ' ;
 	}
+	return board;
+	
 }
 }
 
