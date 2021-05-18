@@ -3,7 +3,7 @@ class CreateBoard {
 	//public char board[] = new char[10];
 	public char board[] = new char[10];
 	void createBoard() {
-	for (int i=0; i<10; i++) {
+	for (int i=1; i<10; i++) {
 		board[i] = ' ' ;
 	}
 }
